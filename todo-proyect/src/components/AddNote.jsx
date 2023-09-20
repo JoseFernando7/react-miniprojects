@@ -2,10 +2,11 @@ import React, { useContext, useState } from 'react'
 import TaskContext from '../context/TaskContext'
 
 function AddNote () {
+  const { tasks } = useContext(TaskContext)
+
   const [title, setTitle] = useState('')
   const [description, setDescription] = useState('')
-
-  const { tasks } = useContext(TaskContext)
+  const [nextId, setNextId] = useState(4)
 
   const handleTitleChange = (e) => {
     setTitle(e.target.value)
@@ -19,10 +20,11 @@ function AddNote () {
   const saveNote = (e) => {
     e.preventDefault()
 
-    tasks.push({ title, description })
+    tasks.push({ id: nextId, title, description, isDone: false })
 
     setTitle('')
     setDescription('')
+    setNextId(nextId + 1)
   }
 
   return (

@@ -17,11 +17,11 @@ Tu tarea es crear una aplicación web simple de lista de tareas utilizando React
 
   - [X]  Los usuarios deberán poder agregar nuevas tareas a la lista a través de un campo de entrada.
 
-  - []  Cada tarea en la lista deberá mostrar su descripción y un botón para marcarla como completada.
+  - [X]  Cada tarea en la lista deberá mostrar su descripción y un botón para marcarla como completada.
 
-  - []  Los usuarios deberán poder marcar una tarea como completada haciendo clic en el botón correspondiente. Las tareas completadas deberán tener una apariencia diferente en la lista (por ejemplo, tachadas).
+  - [X]  Las tareas completadas deberán tener una apariencia diferente en la lista (por ejemplo, tachadas).
 
-  - [] Los usuarios deberán poder eliminar una tarea de la lista haciendo clic en un botón de eliminación junto a cada tarea.
+  - [X]  Los usuarios deberán poder eliminar una tarea de la lista haciendo clic en un botón de eliminación junto a cada tarea.
 
   - []  La aplicación deberá ser responsive y deberá funcionar tanto en dispositivos de escritorio como en dispositivos móviles.
 
